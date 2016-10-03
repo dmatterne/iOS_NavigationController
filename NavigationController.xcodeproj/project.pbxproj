@@ -12,6 +12,8 @@
 		823D67CA1DA245D5009E9FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823D67C81DA245D5009E9FE3 /* Main.storyboard */; };
 		823D67CC1DA245D5009E9FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823D67CB1DA245D5009E9FE3 /* Assets.xcassets */; };
 		823D67CF1DA245D5009E9FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823D67CD1DA245D5009E9FE3 /* LaunchScreen.storyboard */; };
+		823D68151DA2774F009E9FE3 /* ComputerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D68141DA2774F009E9FE3 /* ComputerListTableViewController.swift */; };
+		8294F7351DA290CA00E3B609 /* ComputerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294F7341DA290CA00E3B609 /* ComputerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		823D67CB1DA245D5009E9FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823D67CE1DA245D5009E9FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823D67D01DA245D5009E9FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823D68141DA2774F009E9FE3 /* ComputerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerListTableViewController.swift; sourceTree = "<group>"; };
+		8294F7341DA290CA00E3B609 /* ComputerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				823D67C41DA245D5009E9FE3 /* AppDelegate.swift */,
 				823D67C61DA245D5009E9FE3 /* ViewController.swift */,
 				823D67C81DA245D5009E9FE3 /* Main.storyboard */,
+				8294F7341DA290CA00E3B609 /* ComputerDetailViewController.swift */,
+				823D68141DA2774F009E9FE3 /* ComputerListTableViewController.swift */,
 				823D67CB1DA245D5009E9FE3 /* Assets.xcassets */,
 				823D67CD1DA245D5009E9FE3 /* LaunchScreen.storyboard */,
 				823D67D01DA245D5009E9FE3 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823D68151DA2774F009E9FE3 /* ComputerListTableViewController.swift in Sources */,
 				823D67C71DA245D5009E9FE3 /* ViewController.swift in Sources */,
+				8294F7351DA290CA00E3B609 /* ComputerDetailViewController.swift in Sources */,
 				823D67C51DA245D5009E9FE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				823D67D51DA245D5009E9FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

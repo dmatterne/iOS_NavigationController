@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,19 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dest = segue.destination as! ComputerListTableViewController
+        
+        if segue.identifier == "Desktop" {
+            let desktops = ["Mac Plus", "Bondi iMac", "iMac Flat Panel" , "Mac Pro" , "Mac Mini" , "iMac Aluminium"]
+                dest.computers = desktops
+        } else {
+            let portables = ["PowerBook 100" , "PowerBook Duo" , "PowerBook G4", "White MacBook" , "MacBook 13" , "MacBook Air"]
+            dest.computers = portables
+        }
+        
     }
 
 
